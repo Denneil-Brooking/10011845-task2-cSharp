@@ -14,14 +14,14 @@ namespace _10011845_task2_cSharp
         var isNum = int.TryParse(num, out input);
         for (var count = 0; count <=9; count++)
         {
+         //Ask for user input
         Console.WriteLine("Please pick a number");
         num = Console.ReadLine();
+         //Print there input
         Console.WriteLine($"You picked number {num}");
         Console.WriteLine(Environment.NewLine);
         
-         //Ask for user input
 
-         //Print there input
 
 
          //Make sum
